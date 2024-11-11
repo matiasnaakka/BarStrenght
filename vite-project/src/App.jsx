@@ -1,14 +1,14 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import ProductsPage from './pages/ProductsPage';
-import ProductDetailPage from './pages/ProductDetailPage';
-import CartPage from './pages/CartPage';
-import AccountPage from './pages/AccountPage';
+import Homepage from './pages/homePage';
+import ProductsListPage from './pages/productsListPage';
+import ProductDetails from './pages/productDetails';
+import CartPage from './pages/cartPage';
+import AccountPage from './pages/accountPage';
 import NavBar from './components/ui/navBar'
 import Footer from './components/ui/Footer'
 
-function App() {
+const App = () => {
 
 
   return (
